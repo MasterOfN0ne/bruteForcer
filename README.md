@@ -73,23 +73,23 @@ First, ensure you have Python installed on your system. Then, install the requir
 
 ```bash
 pip install paramiko termcolor
-Usage
+```
+
+## Usage
 To use this tool, follow these steps:
 
-Clone this repository or download the script to your local machine.
-Prepare a text file containing potential passwords, one per line.
-Run the script from your terminal:
-bash
-Copy code
-python ssh_brute_force.py
+* Clone this repository or download the script to your local machine.
+* Prepare a text file containing potential passwords, one per line.
+* Run the script from your terminal
+
 When prompted, enter the username, path to your passwords file, and the target website (in the format www.example.com).
 Please note: This tool is for educational purposes only. Do not attempt to test systems without explicit permission from the owners.
 
-Contributing
+## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your improvements.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Disclaimer
+## Disclaimer
 This tool is provided for educational use only. Any misuse of this software will not be the responsibility of the author or any contributors.
