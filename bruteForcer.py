@@ -21,8 +21,7 @@ def ssh_connect(password, code = 0):
     return code
 
 # Open the file with the passwords:
-try:
-    if not os.path.exists(password):
+if not os.path.exists(password):
         print('[!!] File Not Found')
         sys.exit(1)
 
